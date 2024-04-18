@@ -40,8 +40,7 @@
 	}
 	
 	img{
-	padding-left: 0px;
-	padding-top: 0px;
+	object-position: 0px, 0px;
 }
 	</style>
 

@@ -5,7 +5,10 @@
 	}
 
 	body {
-	  margin: 0auto;
+	  	margin: 0auto;
+		background-image: url("NatureBillede.jpg");
+		background-size: 1550px;
+		
 	}
 
 	/* Style the header */

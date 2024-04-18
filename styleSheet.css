@@ -3,13 +3,14 @@
 	* {
 	  box-sizing: border-box;
 	}
-
 	body {
 	  	margin: 0auto;
 		background-image: url("NatureBillede.jpg");
 		background-repeat: no-repeat;
 		background-attachment: scroll:1.5;
 		transform: tranlatez(50);
+		background-size: 1550px;
+
 	}
 
 	/* Style the header */
@@ -44,10 +45,28 @@
 	}
 	
 	img{
-	padding-left: 0px;
-	padding-top: 0px;
+	object-position: 0px, 0px;
 }
-	</style>
 
+	footer {
+      background-color:#964B00; 
+      color: #ffffff; 
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
 
+    
+    footer a {
+      color: #ffffff; 
+      text-decoration: none;
+    }
 
+    
+    footer a:hover {
+      text-decoration: underline;
+    }
+</style>

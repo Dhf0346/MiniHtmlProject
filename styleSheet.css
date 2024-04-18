@@ -7,8 +7,9 @@
 	body {
 	  	margin: 0auto;
 		background-image: url("NatureBillede.jpg");
-		background-size: 1550px;
-		
+		background-repeat: no-repeat;
+		background-attachment: scroll:1.5;
+		transform: tranlatez(50);
 	}
 
 	/* Style the header */

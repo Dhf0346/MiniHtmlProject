@@ -20,7 +20,8 @@
 	/* Style the top navigation bar */
 	.topnav {
 	  overflow: hidden;
-	  background-color: red;
+		background-color: #D12236;
+	
 	}
 
 	/* Style the topnav links */
@@ -38,6 +39,10 @@
 	  background-color: #ddd;
 	  color: black;
 	}
+	
+	img{
+	padding-left: 150px;
+}
 	</style>
 
 

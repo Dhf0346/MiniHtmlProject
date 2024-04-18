@@ -3,11 +3,11 @@
 	* {
 	  box-sizing: border-box;
 	}
-
 	body {
 	  	margin: 0auto;
 		background-image: url("NatureBillede.jpg");
 		background-size: 1550px;
+
 		
 	}
 
@@ -45,7 +45,26 @@
 	img{
 	object-position: 0px, 0px;
 }
-	</style>
 
+	footer {
+      background-color:#964B00; /* Dark green */
+      color: #ffffff; /* White text */
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
 
+    /* Links inside footer */
+    footer a {
+      color: #ffffff; /* White */
+      text-decoration: none;
+    }
 
+    /* Links hover effect */
+    footer a:hover {
+      text-decoration: underline;
+    }
+</style>

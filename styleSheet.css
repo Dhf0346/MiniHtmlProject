@@ -7,9 +7,9 @@
 	  	margin: 0auto;
 		background-image: url("NatureBillede.jpg");
 		background-repeat: no-repeat;
-		background-attachment: scroll:1.5;
-		transform: tranlatez(50);
+		transform: translateZ(50px);
 		background-size: 1550px;
+		background-size: 2000px
 
 	}
 

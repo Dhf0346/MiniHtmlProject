@@ -4,59 +4,56 @@
 	  box-sizing: border-box;
 	}
 	body {
-	  	margin: 0auto;
+	  	margin: auto;
 		background-image: url("NatureBillede.jpg");
 		background-repeat: no-repeat;
-		transform: translateZ(50px);
+<<<<<<< HEAD
+		transform: translateZ(10%);
 		background-size: 1550px;
-		background-size: 2000px
+		background-size: 2000px;
 
+=======
+		background-attachment: scroll:1,5;
+		transform: translateZ(3000px);
+		background-size: 1550px, 2000px;
+>>>>>>> Miniprojekt/main
 	}
 
-	/* Style the header */
-	.header {
-	  background-color: ;
-	  padding: 20px;
-	  text-align: leftcorner;
-	  border: solid 5px ;
-
-	}
-
-	/* Style the top navigation bar */
 	.topnav {
-	  	
-	
-	}
-
-	/* Style the topnav links */
-	.topnav a {
+	  	float:left;
+	  	display: block;
+	  	color: #f2f2f2;
+	  	text-align: center;
+	  	padding: 14px 16px;
+		text-decoration:none;
+		
+}
+	 
+	.topimg {
 	  float: right;
-	  display: block;
-	  color: white;
 	  text-align: center;
-	  padding: 14px 16px;
 	  text-decoration: none;
 	}
 
-	/* Change color on hover */
-	.topnav a:hover {
-	  background-color:#40F809;
-	  color: black;
-	}
 	
-	img{
+	.{
 	object-position: 0px, 0px;
 }
+
+	.Treesign{
+		background-position: center;
+		align-content: center;
+	}
 
 	footer {
       background-color:#964B00; 
       color: #ffffff; 
-      padding: 20px;
+      padding: 0px;
       text-align: center;
-      position: fixed;
+      position:absolute;
       left: 0;
       bottom: 0;
-      width: 100%;
+      width:100%;
     }
 
     
@@ -67,6 +64,6 @@
 
     
     footer a:hover {
-      text-decoration: underline;
+      text-decoration:underline;
     }
 </style>

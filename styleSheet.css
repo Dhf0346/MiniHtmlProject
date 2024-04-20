@@ -19,6 +19,7 @@
 	  	text-align: center;
 	  	padding: 14px 16px;
 		text-decoration:underline;
+		
 	}
 
 	.top-left {
@@ -29,19 +30,16 @@
 		
 	}
 
-	a:link{
+	.about{
 		color: greenyellow;
 		text-decoration: none;
 		font-weight: bolder;
-		background-color: saddlebrown;
+		background-color:#816D67;
+		font-size: 20px;
 	}
 	
-	a:visited{
-		color:aquamarine;
-	}
-
-	a{
-		font-size: 20px;
+	a.about:visited{
+		color:aqua;
 	}
 
 	.topimg {

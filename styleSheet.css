@@ -18,10 +18,32 @@
 	  	color: #f2f2f2;
 	  	text-align: center;
 	  	padding: 14px 16px;
-		text-decoration:none;
+		text-decoration:underline;
+	}
+
+	.top-left {
+  		position: absolute;
+  		top: 0px;
+  		left: 0px;
+		color: white;
 		
-}
-	 
+	}
+
+	a:link{
+		color: greenyellow;
+		text-decoration: none;
+		font-weight: bolder;
+		background-color: saddlebrown;
+	}
+	
+	a:visited{
+		color:aquamarine;
+	}
+
+	a{
+		font-size: 20px;
+	}
+
 	.topimg {
 	  float: right;
 	  text-align: center;
@@ -31,7 +53,7 @@
 	
 	.{
 	object-position: 0px, 0px;
-}
+	}
 
 	.Treesign{
 		background-position: center;

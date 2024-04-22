@@ -1,18 +1,14 @@
-
 @charset "utf-8";
 * {
   box-sizing: border-box;
-}
 
-container-container {
-    perspective: 100px;
-}
-.container {
-    transform-style: preserve-3d;
-    overflow: hidden;
-}
-.slow-scroll {
-    transform: translateZ(-900px) scale(10.5);
+body {
+	margin: auto;
+	background-image: url("NatureBillede.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll 1,5;
+	transform: translateZ(3000px);
+	background-size: 1550px, 2000px;
 }
 
 

@@ -8,9 +8,8 @@
 		background-image: url("NatureBillede.jpg");
 		background-repeat: no-repeat;
 <<<<<<< HEAD
-		transform: translateZ(10%);
+		transform: translateZ(1000);
 		background-size: 1550px;
-		background-size: 2000px;
 
 =======
 		background-attachment: scroll:1,5;

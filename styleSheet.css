@@ -1,15 +1,7 @@
- @charset "utf-8";
 * {
   box-sizing: border-box;
 }
-body {
-	margin: auto;
-	background-image: url("NatureBillede.jpg");
-	background-repeat: no-repeat;
-	background-attachment: scroll 1,5;
-	transform: translateZ(3000px);
-	background-size: 1550px, 2000px;
-}
+
 
 .topnav {
 	float:left;
@@ -40,7 +32,7 @@ body {
 	font-size: 20px;
 }
 
-.aboutsite:visited{
+a.aboutsite:visited{
 	color:aqua;
 }
 
